@@ -1,0 +1,15 @@
+{
+  "name": "task-manager-mern",
+  "version": "1.0.0",
+  "description": "MERN CRUD Task Manager App",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\"",
+    "build": "tailwindcss -i ./styles.css -o ./dist/output.css --watch"
+  },
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
